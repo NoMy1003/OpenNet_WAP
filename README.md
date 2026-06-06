@@ -8,4 +8,4 @@ OpenNet project for Twitch WAP
 ---
 
 ## Run command
-> 
+> python -B -m pytest (Avoid pycaches)
