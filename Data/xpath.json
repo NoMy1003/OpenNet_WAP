@@ -1,0 +1,23 @@
+{
+    "WapTwitch": {
+        "ClickChooseBottomNav": {
+            "homepage": "//div[contains(@class, 'ScTransitionBase')]//a[@href='/']",
+            "search": "//div[contains(@class, 'ScTransitionBase')]//a[@href='/directory']",
+            "activities": "//div[contains(@class, 'ScTransitionBase')]//a[@href='/activity']",
+            "profile": "//div[contains(@class, 'ScTransitionBase')]//a[@href='/home']"
+
+        },
+        "ClickChooseAppOptions": {
+            "option_layout": "//div[contains(@style, 'overscroll-behavior')]",
+            "open_app": "//div[contains(@style, 'overscroll-behavior')]//a",
+            "continue_with_web": "//div[contains(@style, 'overscroll-behavior')]//button[contains(@class, 'InjectLayout-sc')]"
+        },
+        "SearchTwitch": {
+            "search_input": "//input[@type='search']",
+            "search_button": "//form[@role='search']//button"
+        },
+        "SelectFirstLiveStream": {
+            "first_result": "(//article)[1]"
+        }
+    }
+}
